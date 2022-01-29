@@ -455,7 +455,7 @@ int main()
 
         for (input = 0, output = 0, ii = 0; ii < 8; ++ii)
         {
-            input = (input << 1) | U[ii];
+            input = input | (U[ii] << 1);
             output = (output << 1) | S[ii];
         }
         printf("%02X: %02X  ", input, output);
