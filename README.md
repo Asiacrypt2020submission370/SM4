@@ -1,2 +1,2 @@
 # SM4
-SM4 S-box
+Verify the correctness of the implementation of SM4's S-box
